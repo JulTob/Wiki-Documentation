@@ -1,6 +1,6 @@
 # Mathematical Wiki notation — adopted 10 November 2026
 
-This is Julio's editorial rule for new or intentionally revised mathematical content across his scientific GitHub Wikis. It is not a request to rewrite already published pages or to alter quoted source material.
+This is an editorial rule for new or intentionally revised mathematical content across his scientific GitHub Wikis. It is not a request to rewrite already published pages or to alter quoted source material.
 
 ## Two typographic roles
 
@@ -37,8 +37,6 @@ Use `$...$` for inline GitHub math and fenced `math` blocks for display equation
 Do not mechanically replace historical formulas, code identifiers, citations or symbols in an existing theorem. Preserve the quantity's domain/codomain, mathematical type, ordering and units. If an expression becomes ambiguous, provide a local notation key instead of silently changing its meaning.
 
 Check the actual target Wiki for font/MathJax rendering of the chosen Unicode glyphs; an ordinary Markdown preview or a source-only check is not the same as successful GitHub rendering. If a renderer cannot display a glyph, report the limitation and suggest an explicit fallback for review.
-
-Only Julio edits and publishes the canonical project Wikis. Drafts, proposals, agent updates and code-repository pull requests are not publication.
 
 ## Handoff for specialist agents
 
