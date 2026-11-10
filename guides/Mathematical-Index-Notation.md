@@ -2,11 +2,23 @@
 
 This is Julio's editorial rule for new or intentionally revised mathematical content across his scientific GitHub Wikis. It is not a request to rewrite already published pages or to alter quoted source material.
 
-## Two typographic roles
+## Three typographic roles
 
 __Input and index domain variables__ use Mathematical Monospace Unicode: `𝚒`, `𝚓`, `𝚝`, `𝚗`, `𝚡`, `𝚢`, `𝚣`.
 
 __Functions and systems__ use Mathematical Italic Unicode: `𝑓`, `𝑔`, `𝑠`, `𝑇`.
+
+__Named sets, domains and codomains/ranges__ use Mathematical Double-Struck Unicode (blackboard bold): `ℝ` for the real numbers, `ℕ` for natural numbers, `ℤ` for integers, `ℂ` for complex numbers, `𝔹` for binary values, and `𝕌` for a stated universal set. We may use other double-struck letters for explicitly defined set-valued objects where their role is unambiguous.
+
+This convention identifies a **set**, not a variable constrained to that set. A function input such as `𝚡` remains mathematical monospace even when `𝚡 ∈ ℝ`. A function such as `𝑓` remains mathematical italic even when its codomain is `𝔹`. In set-theoretic examples, `𝔹 = {0,1}` is a convenient binary domain; define `ℕ` as starting at 0 or 1 when material, and state which universe `𝕌` denotes.
+
+For example:
+
+```math
+𝑓: ℝ \rightarrow 𝔹, \qquad 𝚡 \in ℝ, \qquad 𝑓_{(𝚡)} \in 𝔹.
+```
+
+Distinguish the **codomain** of a function from its actual **image/range** if they differ. Double-struck lettering marks a set's role; it does not assert that its members fill the whole codomain. This rule must not automatically replace standard `Ω`, `A` or `B` notation already defined for sample spaces or events in an existing source or Wiki.
 
 The style expresses *roles*, not the statement that every function's domain is time.
 
